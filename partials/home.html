@@ -1,0 +1,83 @@
+<header>
+    <h1>How the brain is like a computer</h1>
+</header>
+<nav>
+    <ul>
+        <li><a ng-click="home.setView(1)">Processing Speed</a>
+        </li>
+        <li><a ng-click="home.setView(2)">Hard Drive</a>
+        </li>
+        <li><a ng-click="home.setView(3)">RAM</a>
+        </li>
+        <li><a ng-click="home.setView(4)">Malware</a>
+        </li>
+    </ul>
+</nav>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<div class="main-content" ng-show="home.isView(1)">
+    <section class="left">
+        <h2>What is a processor?</h2>
+    	<img src="images/CPU.jpg" style="width: 200px;" alt="CPU or Central Processing unit">
+        <p>The <a href = "https://www.youtube.com/watch?v=bcVBqwlnmlM">CPU or processor</a> is the brain of the computer. All information processing is done by the processor. The processor tells the computer what to do and when to do it. The speed of a CPU's information processing is measured in Megahertz or MHz. Processors also have cores, which are the processors way of multitasking. A CPU with 6 cores can process 6 different tasks at the same time. Hyperthreading is a technology that can benefit performance of multi-threaded applications that more efficiently schedules data manipulation from existing cores. A great, broken down explanation of hyperthreading can be found <a href="https://www.youtube.com/watch?v=wnS50lJicXc">here</a></p>
+    </section>
+    <section class="right">
+        <h2>What kind of processor would my brain be?</h2>
+        <figure>
+            <img src="images/brain.jpg" style="width: 200px;" alt="smart things go on here">
+        </figure>
+        <p>The human brain is a very complicated organ. While the comparasin of the brain to a processor is not a perfect one, it is one of the best we have. Information processing of the brain starts with input from external sensory organs, which transform stimuli into <a href="http://www.teach-nology.com/teachers/methods/info_processing/">electrochemical signals.</a></p>
+    </section>
+</div>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<div class="main-content" ng-show="home.isView(2)">
+    <section class="left">
+        <h2>What is a hard drive?</h2>
+            <img src="images/harddrive.jpg" style="width: 200px;" alt="smart things go on here">
+        <p>A hard disk drive (sometimes abbreviated as Hard drive, HD, or HDD) is a device used to permanently store and also retrieve information. There are many variations, but their sizes are generally 3.5" and 2.5" for desktop and laptop computers respectively. A hard drive consists of one or more platters to which data is written using a magnetic head, all inside of an air-sealed casing. Internal hard disks reside in a drive bay, connect to the motherboard using an ATA, SCSI, or SATA cable, and are powered by a connection to the PSU (power supply unit). The images below show the components of a hard drive inside of both desktop and laptop computers.</p>
+    </section>
+    <section class="right">
+        <h2>What kind of hard drive would my brain be?</h2>
+        <img src="images/brain.jpg" style="width: 200px;" alt="smart things go on here">
+        <p>text 2 text 2 text 2 text 2 </p>
+    </section>
+</div>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<div class="main-content" ng-show="home.isView(3)">
+    <section class="left">
+        <h2>What is RAM?</h2>
+        <img src="images/RAM.jpg" style="width: 200px;" alt="smart things go on here">
+        <p>RAM or Random Access Memory is a the short-term memory of the computer. RAM comes in long thin sticks and plugs into the Motherboard of the system. RAM sizes are measured in Gigabytes or gb. RAM sizes start at 2gb and increase by factors of two with 4gb, 8gb, 16gb and so forth options being available.</p>
+
+        <p> Any program the computer uses has parts loaded into RAM while it is running. For example, if a user opens up <a href="https://www.spotify.com/us/">Spotify</a> and selects their favorite song, the computer will load some Spotify functionality as well as the song onto the RAM for access and playback. If too much RAM is used, in cases such as having too many Google Chrome tabs open, the computer will resort to storing data on the <a href ng-click="home.setView(2)">Hard Drive </a> which can vastly slow down performance.</p>
+    </section>
+    <section class="right">
+        <h2>How much RAM does my brain have?</h2>
+        <figure>
+            <img src="images/brain.jpg" style="width: 200px;" alt="smart things go on here">
+        </figure>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;To put it plainly, not much. The human brain can only store about <a href="http://www.simplypsychology.org/short-term-memory.html"> 5 to 9 items </a> in their short-term memory. This theory was created by <a href="http://psychclassics.yorku.ca/Miller/">George A. Miller</a> in 1956 where he put volunteers through the digit-span test you can take <a href="http://www.cambridgebrainsciences.com/browse/memory/test/digit-span"> here </a>
+        </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;In this study, Miller concluded that humans can store about 5 to 9 "chunks" of data in the short term, which is about 15 to 30 seconds. The size of these chunks, however, the amount of information stored in each chunk can be of variable size. </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp; Say a volunteer is brought in and told a story that includes pictures about a man who drove to the store, bought some fruit, then drove home. If the volunteer is asked to recall everything they can about this story, they may remember the man, his car, and the fruit he bought. That would be 3 chunks of information. Within, say, the man's chunk, the volunteer may remember his appearance, shirt color, and name if one was given. This is an example of variable sizes of chunks of short-term memory data. </p>
+    </section>
+</div>
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<div class="main-content" ng-show="home.isView(4)">
+    <section class="left">
+        <h2>What is malware??</h2>
+            <img src="images/malware.jpg" style="width: 200px;" alt="smart things go on here">
+        <p>Malware is any software designed to damage or do unwanted actions on a computer system. Common examples of malware include Malware can come in many different variations such as <a href="http://techterms.com/definition/virus">Viruses</a>, <a href="http://techterms.com/definition/trojanhorse">Trojan Horses</a>, and <a href="http://techterms.com/definition/spyware">Spyware</a>. </p>
+        <p><infection>Viruses </infection> are small programs or scripts (series of commands a computer follows like cooking directions) that can negatively affect the operations of a computer.Viruses have been known to create, move, and erase files, consume a computer's memory or <a href ng-click="home.setView(3)">RAM</a> or cause a computer not to function correctly. Like real world viruses, they are known to duplicate themselves and spread to other systems -- commonly through infected emails.
+        </p>
+        <p><infection>Trojan Horses </infection> in computing are much like the are in Greek Mythology. A trojan will apear to be an innocent software such as a game, utility, or antivirus program. Trojan horses can be extremely difficult to remove, because in cases the user had given the program privledges to change the computer as an administrator. <a href="http://www.ehow.com/info_8124155_10-computer-trojan-horses-time.html">Here</a> is an interesting article of the 10 worst trojans of all time.</p>
+        <p><infection>Spyware</infection>, as you can probably guess spys on your computer. Spyware can track virtually any activity on your computer from keypresses to web usage. Spyware is used a lot by advertisers to suggest ads to users based on their browsing history. Have you ever looked for an item on amazon and then seen ads for that item everywhere you went on the internet? Spyware did that. While this seems rather victimless, spyware can be used by individuals with more malicious intent to steal passwords, emails, and even credit card information.</p>
+        <h2> I only have an anti-virus. Should I run anti-malware software instead? </h2>
+        <p> Optimally, you should run both. For a full rundown of the differneces in anti-malware and anti-virus software and what they each scan for, click <a href="https://www.youtube.com/watch?v=67-5bzc_GKE">here</a>
+
+    </section>
+    <section class="right">
+        <h2>Can my brain have malware?</h2>
+        <img src="images/brain.jpg" style="width: 200px;" alt="smart things go on here">
+        <p>One main important difference between complications with the brain and malware on a computer is that you cannot catch or remove mental disorders -- no matter what Jenny McCarthy says.</p>
+    </section>
+</div>
