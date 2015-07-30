@@ -17,11 +17,6 @@ a{
 	color: #FF6633;
 }
 
-img.center{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}
 
 header{
 	width:100%;
@@ -39,7 +34,6 @@ h1:hover{
 	color:#FF6633;
 }
 h2{
-	text-align: center;
 	color:#007CB7;
 }
 
