@@ -17,12 +17,10 @@ a{
 	color: #FF6633;
 }
 
-img{
-	text-align: center;
+img.center{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	padding-left: 25%;
 }
 
 header{
