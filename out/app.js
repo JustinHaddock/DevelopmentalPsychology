@@ -1,0 +1,1 @@
+var myApp=angular.module("psychPage",["ngRoute","psychController"]);myApp.config(["$routeProvider",function(e){e.when("/home",{templateUrl:"partials/home.html",controller:"HomeController as home"}).otherwise({redirectTo:"/home"})}]);
